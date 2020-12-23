@@ -1,4 +1,4 @@
-1. 创建`hello.cc`文件
+1. 创建`helloworld.cc`文件
 ```c++
     #include <node.h>
 
