@@ -1,0 +1,17 @@
+{
+  "name": "my-addon",
+  "version": "1.0.0",
+  "description": "1. 创建`hello.cc`文件\r ```c++\r     #include <node.h>",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  }
+}
